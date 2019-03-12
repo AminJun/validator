@@ -1,6 +1,9 @@
 # Validate HTML
-run 
 ```bash 
-source html.sh file_name.html
+source html.sh "path_to_html_file.html"
 ``` 
-To validate the file "file_name.html" 
+
+# Validate All Files
+```bash
+source iterate.sh "path_to_all_files" > "excel.out"
+```
